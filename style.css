@@ -97,7 +97,7 @@ nav > div > a:hover{
 }
 
 footer{
-    background-color: var(--primeira);
+    background-color: var(--quarta);
     padding: 1rem;
     font-family: Roboto;
 }
@@ -114,12 +114,14 @@ footer > div > a:hover{
     transform: scale(1.1) ;
 }
 
+
 .ajuste{
 
 }
 
-.texto-convite{
-    font-family: Poppins, sans-serif;
-    font-size: 1.5rem;
+.convite-card{
+    width: 50%;
+    margin: 1rem;
 }
+
 
