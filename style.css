@@ -114,6 +114,16 @@ footer > div > a:hover{
     transform: scale(1.1) ;
 }
 
+.link-convite{
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+}
+
+.link-convite:hover{
+    text-decoration: underline;
+    color: var(--quarta);
+}
+
 
 
 
