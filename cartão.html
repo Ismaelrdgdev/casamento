@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Card com Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-gray-100 font-sans">
+
+  <div class="relative bg-white w-60 h-[280px] rounded-2xl shadow-lg flex flex-col items-center overflow-hidden">
+    <!-- Imagem fixa central -->
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 rounded-xl overflow-hidden shadow-md bg-gray-50 flex items-center justify-center">
+      <img src="imagens/airfryer.png" alt="Imagem do produto" class="w-full h-full object-cover" />
+    </div>
+    
+
+    <!-- Texto -->
+   
+    <!-- Botão fixo no bottom -->
+    <button class="absolute bottom-5 left-1/2 -translate-x-1/2 w-40 h-10 bg-gradient-to-r from-pink-500 to-rose-500 text-white font-semibold rounded-full shadow-md hover:scale-105 active:scale-95 transition-transform">Presentear</button>
+
+     
+  </div>
+
+</body>
+</html>

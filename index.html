@@ -12,279 +12,395 @@
     <title>Daniela & Ismael</title>
 </head>
 
-<body>
-    <header class=" w-full h-80 flex justify-center items-center">
-        <h1 class="text-5xl md:text-9xl text-white">Daniela & Ismael</h1>
-    </header>
+<body class="min-h-screen flex flex-col items-center justify-between bg-gray-100 font-sans">
 
-    <form action=""></form>
+  <!-- Cabeçalho -->
+  <header class="w-full md:h-80 h-40 flex flex-col justify-center items-center bg-gradient-to-r from-pink-400 to-rose-500 text-center">
+    <h1 class="text-4xl md:text-9xl text-white font-bold">Daniela & Ismael</h1>
+  </header>
 
-    <nav>
-        <div class="text-xs md:text-lg flex items-center justify-center h-10">
-            <a href="index.html">Presentes</a>
-            <a href="noivos.html">Noivos </a>
-            <a href="convite.html">Convite </a>
-            <a href="https://www.instagram.com/ciadafesta_buffet/" target="_blank">Local da Cerimônia</a>
+  <!-- Navegação -->
+  <nav class="w-full flex justify-center items-center gap-6 text-xs md:text-lg h-10 bg-white shadow-sm mb-10">
+    <a href="index.html" class="hover:text-pink-500 transition">Presentes</a>
+    <a href="noivos.html" class="hover:text-pink-500 transition">Noivos</a>
+    <a href="convite.html" class="hover:text-pink-500 transition">Convite</a>
+    <a href="https://www.instagram.com/ciadafesta_buffet/" target="_blank" class="hover:text-pink-500 transition">Local da Cerimônia</a>
+  </nav>
+
+  <!-- Card principal -->
+  <main class=" grid grid-cols-2 md:flex  justify-center items-center md:flex-1 py-2 gap-4 gap-y-4">
+    <div class="relative bg-white w-40 h-[310px] md:w-60 md:h-[360px] rounded-2xl shadow-lg flex flex-col items-center justify-between md:p-6 overflow-hidden mb-8 zoom">
+
+      <!-- Cabeçalho do Card -->
+      <div class="w-full flex justify-center items-center">
+        <h1 class=" md:text-lg fonte p-1">Geladeira</h1>
+      </div>
+
+      <!-- Imagem central -->
+      <div class="flex-1 flex items-center justify-center">
+        <div class="md:w-48 w-34 h-44 md:h-48 bg-gray-200 rounded-xl overflow-hidden shadow-inner">
+          <img src="imagens/geladeira.png" 
+               alt="Imagem do produto" 
+               class="w-full h-full object-cover " />
         </div>
-    </nav>
+      </div>
+      <div class="text-green-500 font-bold p-2">
+        R$ 1.000,00
+      </div>
 
-    <main>
-        <div class="flex justify-center mt-6 mb-2">
-            <h1 class="text-2xl md:text-3xl title">
-                PRESENTEI OS NOIVOS COM ITENS DA CASA NOVA
-            </h1>
+      <!-- Botão inferior -->
+      <div class="w-full flex justify-center md:mb-2 mb-4">
+        <button class="md:w-50 md:h-12 w-35 h-10  botao md:rounded-full rounded-2xl shadow-md hover:scale-105 active:scale-95 transition-transform">
+          Presentear
+        </button>
+      </div>
+    </div>
+
+    <!-- Novo card-->
+    <div class="relative bg-white w-40 h-[310px] md:w-60 md:h-[360px] rounded-2xl shadow-lg flex flex-col items-center justify-between md:p-6 overflow-hidden mb-8 zoom ">
+
+      <!-- Cabeçalho do Card -->
+      <div class="w-full flex justify-center items-center">
+        <h1 class=" md:text-lg fonte p-1">AirFryer</h1>
+      </div>
+
+      <!-- Imagem central -->
+      <div class="flex-1 flex items-center justify-center">
+        <div class="md:w-48 w-34 h-44 md:h-48 bg-gray-200 rounded-xl overflow-hidden shadow-inner zoom">
+          <img src="imagens/airfryer.png" 
+               alt="Imagem do produto" 
+               class="w-full h-full object-cover " />
         </div>
-        <section class="grid grid-cols-2 md:flex items-center justify-center ajuste">
-            <div class="card md:flex items-center justify-center">
-                <div>
-                    <img src="imagens/geladeira.png" alt="" class=" zoom" />
-                    <p class="para flex justify-center text-sm">adeira Frost Free</p>
-                    <span class="flex justify-center text-green-500">R$ 2.100,00</span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLUMtSQ-6SUS9m67BF-2100,00" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
+      </div>
+      <div class="text-green-500 font-bold p-2">
+        R$ 250,00
+      </div>
 
-            <div class="card flex items-center justify-center">
-                <div class="">
-                    <img src="imagens/fogao.png" alt="" class=" zoom" />
-                    <p class="para flex justify-center text-sm">Fogão 5 Bocas</p>
-                    <span class="flex justify-center text-green-500">R$ 1.200,00</span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLUEtSQ-3EFF44QZhh-1200,00"
-                        class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
+      <!-- Botão inferior -->
+      <div class="w-full flex justify-center md:mb-2 mb-4">
+        <button class="md:w-50 md:h-12 w-35 h-10  botao md:rounded-full rounded-2xl shadow-md hover:scale-105 active:scale-95 transition-transform">
+          Presentear
+        </button>
+      </div>
+    </div>
 
-            <div class="card flex items-center justify-center">
-                <div class="">
-                    <img src="imagens/microondas.png" alt="" class=" zoom" />
-                    <p class="para flex justify-center text-sm">Micro-ondas</p>
-                    <span class="flex justify-center text-green-500">R$ 400,00</span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLUEtSQ-MFTFKYroL-400,00" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
+    <!-- Novo card-->
+    <div class="relative bg-white w-40 h-[310px] md:w-60 md:h-[360px] rounded-2xl shadow-lg flex flex-col items-center justify-between md:p-6 overflow-hidden mb-8 zoom ">
 
-            <div class="card flex items-center justify-center">
-                <div class="">
-                    <img src="imagens/mesa.png" alt="" class=" zoom" />
-                    <p class="para flex justify-center text-sm">Mesa 4 cadeiras</p>
-                    <span class="flex justify-center text-green-500">R$ 800,00</span>
-                    <a href="" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
+      <!-- Cabeçalho do Card -->
+      <div class="w-full flex justify-center items-center">
+        <h1 class=" md:text-lg fonte p-1">Batedeira</h1>
+      </div>
 
-            <div class="card flex items-center justify-center">
-                <div class="">
-                    <img src="imagens/ferro.png" alt="" class=" zoom" />
-                    <p class="para flex justify-center text-sm">Ferro de passar</p>
-                    <span class="flex justify-center text-green-500">R$ 120,00</span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLTItSQ-6SUX5fpCEx-120,00" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="p-4">
-                    <img src="imagens/guarda roupas.png" class="zoom" />
-                    <p class="para flex justify-center text-sm">Guarda Roupas</p>
-                    <span class="flex justify-center text-green-500">R$ 600,00 </span>
-                    <a href="" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="grid grid-cols-2 md:flex items-center justify-center ajuste">
-            <div class="card flex items-center justify-center">
-                <div class="p-2">
-                    <img src="./imagens/BATEDEIRA.png" alt="" class="gel zoom mb-8" />
-                    <p class="para flex justify-center text-sm">Batedeira</p>
-                    <span class="flex justify-center text-green-500">R$ 200,00</span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLTItSQ-6SUYdTc4Nn-200,00" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="p-2">
-                    <img src="./imagens/panela.png" alt="" class="gel zoom" />
-                    <p class="para flex justify-center text-sm">Jogo de Panelas</p>
-                    <span class="flex justify-center text-green-500">R$ 300,00</span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLTMtSQ-6SUZA4I27h-300,00" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="p-2">
-                    <img src="./imagens/jogo de lencol.png" alt="" class="gel zoom" />
-                    <p class="para flex justify-center text-sm">Jogo de Lençol</p>
-                    <span class="flex justify-center text-green-500">R$ 200,00 </span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLTItSQ-6SUYdTc4Nn-200,00" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="p-2">
-                    <img src="./imagens/smart.png" alt="" class="gel zoom tv"/>
-                    <p class="para flex justify-center text-sm">Smart TV 32"</p>
-                    <span class="flex justify-center text-green-500">R$ 990,00</span>
-                    <a href="" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="p-2">
-                    <img src="./imagens/chaleira.png" alt="" class="gel zoom" />
-                    <p class="para flex justify-center text-sm">Chaleira Elétrica</p>
-                    <span class="flex justify-center text-green-500">R$ 100,00 </span>
-                    <a href="" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="">
-                    <img src="./imagens/talheres.png" alt="" class="gel zoom" />
-                    <p class="para flex justify-center text-sm">Jogo de talheres</p>
-                    <span class="flex justify-center text-green-500">R$ 170,00 </span>
-                    <a href="" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="grid grid-cols-2 md:flex items-center justify-center ajuste">
-            <div class="card flex items-center justify-center">
-                <div class="p-2">
-                    <img src="./imagens/pratos.png" alt="" class="gel zoom" />
-                    <p class="para flex justify-center text-sm">Jogo de pratos</p>
-                    <span class="flex justify-center text-green-500">R$ 300,00 </span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLTMtSQ-6SUZA4I27h-300,00" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="p-2">
-                    <img src="./imagens/liquidificador.png" alt="" class=" zoom" />
-                    <p class="para flex justify-center text-sm">Liquidificador</p>
-                    <span class="flex justify-center text-green-500">R$ 200,00</span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLTItSQ-6SUYdTc4Nn-200,00" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="p-2">
-                    <img src="./imagens/cafeteira.png" alt="" class=" zoom "/>
-                    <p class="para flex justify-center text-sm">Cafeteira</p>
-                    <span class="flex justify-center text-green-500">R$ 150,00</span>
-                    <a href="" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="p-1">
-                    <img src="./imagens/sanduicheira.png" alt="" class=" zoom" />
-                    <p class="para flex justify-center text-sm">Sanduicheira</p>
-                    <span class="flex justify-center text-green-500">R$ 120,00</span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLTItSQ-6SUX5fpCEx-120,00" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="p-3">
-                    <img src="./imagens/lavadora.png" alt="" class=" zoom" />
-                    <p class="para flex justify-center text-sm">Máquina de Lavar</p>
-                    <span class="flex justify-center text-green-500">R$ 1.200,00 </span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLUEtSQ-3EFF44QZhh-1200,00" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="p-2">
-                    <img src="./imagens/ventilador.png" alt="" class=" zoom" />
-                    <p class="para flex justify-center text-sm">Ventilador</p>
-                    <span class="flex justify-center text-green-500">R$ 200,00 </span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLTItSQ-6SUYdTc4Nn-200,00" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="grid grid-cols-2 md:flex items-center justify-center ajuste">
-            <div class="card flex items-center justify-center">
-                <div class="mt-10">
-                    <img src="./imagens/colchao.png" alt="" class="gel zoom" />
-                    <p class="para flex justify-center text-sm">Colchão</p>
-                    <span class="flex justify-center text-green-500">R$ 1.000,00 </span>
-                    <a href="" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="p-2">
-                    <img src="./imagens/panela eletrica.png" alt="" class=" zoom" />
-                    <p class="para flex justify-center text-sm">Panela elétrica</p>
-                    <span class="flex justify-center text-green-500">R$ 300,00 </span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLTMtSQ-6SUZA4I27h-300,00" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="p-2">
-                    <img src="./imagens/mixer.png" alt="" class=" zoom "/>
-                    <p class="para flex justify-center text-sm">Mix</p>
-                    <span class="flex justify-center text-green-500">R$ 150,00</span>
-                    <a href="" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="p-1">
-                    <img src="./imagens/panela de pressao.png" alt="" class=" zoom" />
-                    <p class="para flex justify-center text-sm">Panela de pressão</p>
-                    <span class="flex justify-center text-green-500">R$ 120,00</span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLTItSQ-6SUX5fpCEx-120,00" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div>
-                    <img src="./imagens/airfryer.png" alt="" class=" zoom" />
-                    <p class="para flex justify-center text-sm">Air Fryer</p>
-                    <span class="flex justify-center text-green-500">R$ 300,00 </span>
-                    <a href="https://link.infinitepay.io/ismael_vendas/VC1DLTMtSQ-6SUZA4I27h-300,00" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-
-            <div class="card flex items-center justify-center">
-                <div class="mt-8">
-                    <img src="./imagens/sofa.png" alt="" class=" zoom" />
-                    <p class="para flex justify-center text-sm">Sofá</p>
-                    <span class="flex justify-center text-green-500">R$ 850,00 </span>
-                    <a href="" class="botao flex justify-center zoom " target="_blank">Presentear</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="grid grid-cols-3 h-25 md:h-40">
-        <div class="text-xs md:text-lg flex flex-col items-center justify-center sub-links">
-            <a href="index.html">Voltar ao Inicio</a>
-            <a href="noivos.html">Os Noivos</a>
-            <a href="convite.html">Meu Convite</a>
-            <a href="https://www.instagram.com/ciadafesta_buffet/" target="_blank">Local da Cerimônia</a>
+      <!-- Imagem central -->
+      <div class="flex-1 flex items-center justify-center">
+        <div class="md:w-48 w-34 h-44 md:h-48 bg-gray-200 rounded-xl overflow-hidden shadow-inner zoom">
+          <img src="imagens/BATEDEIRA.png" 
+               alt="Imagem do produto" 
+               class="w-full h-full object-cover" />
         </div>
-        <div class="text-[10px] md:text-lg flex flex-col justify-center items-center">
-            <p>Nossa chave PIX</p>
-            <p>21 99330-8955 (Ismael)</p>
-            <p>87 99615-1031 (Daniela)</p>
+      </div>
+      <div class="text-green-500 font-bold p-2">
+        R$ 150,00
+      </div>
+
+      <!-- Botão inferior -->
+      <div class="w-full flex justify-center md:mb-2 mb-4">
+        <button class="md:w-50 md:h-12 w-35 h-10  botao md:rounded-full rounded-2xl shadow-md hover:scale-105 active:scale-95 transition-transform">
+          Presentear
+        </button>
+      </div>
+    </div>
+
+    <!-- Novo card-->
+    <div class="relative bg-white w-40 h-[310px] md:w-60 md:h-[360px] rounded-2xl shadow-lg flex flex-col items-center justify-between md:p-6 overflow-hidden mb-8 zoom ">
+
+      <!-- Cabeçalho do Card -->
+      <div class="w-full flex justify-center items-center">
+        <h1 class=" md:text-lg fonte p-1">Cafeiteira</h1>
+      </div>
+
+      <!-- Imagem central -->
+      <div class="flex-1 flex items-center justify-center">
+        <div class="md:w-48 w-34 h-44 md:h-48 bg-gray-200 rounded-xl overflow-hidden shadow-inner zoom">
+          <img src="imagens/cafeteira.png" 
+               alt="Imagem do produto" 
+               class="w-full h-full object-cover " />
         </div>
-        <div class="text-[10px] md:text-lg flex flex-col justify-center items-center">
-            <span class="">Nossas redes sociais</span>
-            <div class="flex">
-                <a href="" class="zoom">
-                    <img width="30" height="50" src="https://img.icons8.com/ios/50/instagram-new--v1.png"
-                        alt="instagram-new--v1" />
-                </a>
-                <a href="" class="zoom"><img width="30" height="50" src="https://img.icons8.com/ios/50/whatsapp--v1.png"
-                        alt="whatsapp--v1" /></a>
-                
-            </div>
+      </div>
+      <div class="text-green-500 font-bold p-2">
+        R$ 120,00
+      </div>
+
+      <!-- Botão inferior -->
+      <div class="w-full flex justify-center md:mb-2 mb-4">
+        <button class="md:w-50 md:h-12 w-35 h-10  botao md:rounded-full rounded-2xl shadow-md hover:scale-105 active:scale-95 transition-transform">
+          Presentear
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Card principal -->
+  <main class=" grid grid-cols-2 md:flex  justify-center items-center md:flex-1 py-2 gap-4 gap-y-4">
+    <div class="relative bg-white w-40 h-[310px] md:w-60 md:h-[360px] rounded-2xl shadow-lg flex flex-col items-center justify-between md:p-6 overflow-hidden mb-8 zoom ">
+
+      <!-- Cabeçalho do Card -->
+      <div class="w-full flex justify-center items-center">
+        <h1 class=" md:text-lg fonte p-1">Chaleira Elétrica</h1>
+      </div>
+
+      <!-- Imagem central -->
+      <div class="flex-1 flex items-center justify-center">
+        <div class="md:w-48 w-34 h-44 md:h-48 bg-gray-200 rounded-xl overflow-hidden shadow-inner zoom">
+          <img src="imagens/chaleira.png" 
+               alt="Imagem do produto" 
+               class="w-full h-full object-cover " />
         </div>
-    </footer>
+      </div>
+      <div class="text-green-500 font-bold p-2">
+        R$ 100,00
+      </div>
+
+      <!-- Botão inferior -->
+      <div class="w-full flex justify-center md:mb-2 mb-4">
+        <button class="md:w-50 md:h-12 w-35 h-10  botao md:rounded-full rounded-2xl shadow-md hover:scale-105 active:scale-95 transition-transform">
+          Presentear
+        </button>
+      </div>
+    </div>
+
+    <!-- Novo card-->
+    <div class="relative bg-white w-40 h-[310px] md:w-60 md:h-[360px] rounded-2xl shadow-lg flex flex-col items-center justify-between md:p-6 overflow-hidden mb-8 zoom ">
+
+      <!-- Cabeçalho do Card -->
+      <div class="w-full flex justify-center items-center">
+        <h1 class=" md:text-lg fonte p-1">Fogão</h1>
+      </div>
+
+      <!-- Imagem central -->
+      <div class="flex-1 flex items-center justify-center">
+        <div class="md:w-48 w-34 h-44 md:h-48 bg-gray-200 rounded-xl overflow-hidden shadow-inner zoom">
+          <img src="imagens/fogao.png" 
+               alt="Imagem do produto" 
+               class="w-full h-full object-cover " />
+        </div>
+      </div>
+      <div class="text-green-500 font-bold p-2">
+        R$ 500,00
+      </div>
+
+      <!-- Botão inferior -->
+      <div class="w-full flex justify-center md:mb-2 mb-4">
+        <button class="md:w-50 md:h-12 w-35 h-10  botao md:rounded-full rounded-2xl shadow-md hover:scale-105 active:scale-95 transition-transform">
+          Presentear
+        </button>
+      </div>
+    </div>
+
+    <!-- Novo card-->
+    <div class="relative bg-white w-40 h-[310px] md:w-60 md:h-[360px] rounded-2xl shadow-lg flex flex-col items-center justify-between md:p-6 overflow-hidden mb-8 zoom ">
+
+      <!-- Cabeçalho do Card -->
+      <div class="w-full flex justify-center items-center">
+        <h1 class=" md:text-lg fonte p-1">Liquidificador</h1>
+      </div>
+
+      <!-- Imagem central -->
+      <div class="flex-1 flex items-center justify-center">
+        <div class="md:w-48 w-34 h-44 md:h-48 bg-gray-200 rounded-xl overflow-hidden shadow-inner zoom">
+          <img src="imagens/liquidificador.png" 
+               alt="Imagem do produto" 
+               class="w-full h-full object-cover " />
+        </div>
+      </div>
+      <div class="text-green-500 font-bold p-2">
+        R$ 150,00
+      </div>
+
+      <!-- Botão inferior -->
+      <div class="w-full flex justify-center md:mb-2 mb-4">
+        <button class="md:w-50 md:h-12 w-35 h-10  botao md:rounded-full rounded-2xl shadow-md hover:scale-105 active:scale-95 transition-transform">
+          Presentear
+        </button>
+      </div>
+    </div>
+
+    <!-- Novo card-->
+    <div class="relative bg-white w-40 h-[310px] md:w-60 md:h-[360px] rounded-2xl shadow-lg flex flex-col items-center justify-between md:p-6 overflow-hidden mb-8 zoom ">
+
+      <!-- Cabeçalho do Card -->
+      <div class="w-full flex justify-center items-center">
+        <h1 class=" md:text-lg fonte p-1">Talheres</h1>
+      </div>
+
+      <!-- Imagem central -->
+      <div class="flex-1 flex items-center justify-center">
+        <div class="md:w-48 w-34 h-44 md:h-48 bg-gray-200 rounded-xl overflow-hidden shadow-inner zoom">
+          <img src="imagens/talheres.png" 
+               alt="Imagem do produto" 
+               class="w-full h-full object-cover " />
+        </div>
+      </div>
+      <div class="text-green-500 font-bold p-2">
+        R$ 120,00
+      </div>
+
+      <!-- Botão inferior -->
+      <div class="w-full flex justify-center md:mb-2 mb-4">
+        <button class="md:w-50 md:h-12 w-35 h-10 botao md:rounded-full rounded-2xl shadow-md hover:scale-105 active:scale-95 transition-transform">
+          Presentear
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Card principal -->
+  <main class=" grid grid-cols-2 md:flex  justify-center items-center md:flex-1 py-2 gap-4 gap-y-4">
+    <div class="relative bg-white w-40 h-[310px] md:w-60 md:h-[360px] rounded-2xl shadow-lg flex flex-col items-center justify-between md:p-6 overflow-hidden mb-8 zoom ">
+
+      <!-- Cabeçalho do Card -->
+      <div class="w-full flex justify-center items-center">
+        <h1 class=" md:text-lg fonte p-1">Pratos</h1>
+      </div>
+
+      <!-- Imagem central -->
+      <div class="flex-1 flex items-center justify-center">
+        <div class="md:w-48 w-34 h-44 md:h-48 bg-gray-200 rounded-xl overflow-hidden shadow-inner zoom">
+          <img src="imagens/pratos.png" 
+               alt="Imagem do produto" 
+               class="w-full h-full object-cover " />
+        </div>
+      </div>
+      <div class="text-green-500 font-bold p-2">
+        R$ 150,00
+      </div>
+
+      <!-- Botão inferior -->
+      <div class="w-full flex justify-center md:mb-2 mb-4">
+        <button class="md:w-50 md:h-12 w-35 h-10  botao md:rounded-full rounded-2xl shadow-md hover:scale-105 active:scale-95 transition-transform">
+          Presentear
+        </button>
+      </div>
+    </div>
+
+    <!-- Novo card-->
+    <div class="relative bg-white w-40 h-[310px] md:w-60 md:h-[360px] rounded-2xl shadow-lg flex flex-col items-center justify-between md:p-6 overflow-hidden mb-8 zoom ">
+
+      <!-- Cabeçalho do Card -->
+      <div class="w-full flex justify-center items-center">
+        <h1 class=" md:text-lg fonte p-1">Pipoqueira Elétrica</h1>
+      </div>
+
+      <!-- Imagem central -->
+      <div class="flex-1 flex items-center justify-center">
+        <div class="md:w-48 w-34 h-44 md:h-48 bg-gray-200 rounded-xl overflow-hidden shadow-inner zoom">
+          <img src="imagens/pipoqueira-eletrica.png" 
+               alt="Imagem do produto" 
+               class="w-full h-full object-cover " />
+        </div>
+      </div>
+      <div class="text-green-500 font-bold p-2">
+        R$ 150,00
+      </div>
+
+      <!-- Botão inferior -->
+      <div class="w-full flex justify-center md:mb-2 mb-4">
+        <button class="md:w-50 md:h-12 w-35 h-10  botao md:rounded-full rounded-2xl shadow-md hover:scale-105 active:scale-95 transition-transform">
+          Presentear
+        </button>
+      </div>
+    </div>
+
+    <!-- Novo card-->
+    <div class="relative bg-white w-40 h-[310px] md:w-60 md:h-[360px] rounded-2xl shadow-lg flex flex-col items-center justify-between md:p-6 overflow-hidden mb-8 zoom ">
+
+      <!-- Cabeçalho do Card -->
+      <div class="w-full flex justify-center items-center">
+        <h1 class=" md:text-lg fonte p-1">Jogo de Panelas</h1>
+      </div>
+
+      <!-- Imagem central -->
+      <div class="flex-1 flex items-center justify-center">
+        <div class="md:w-48 w-34 h-44 md:h-48 bg-gray-200 rounded-xl overflow-hidden shadow-inner zoom">
+          <img src="imagens/panela.png" 
+               alt="Imagem do produto" 
+               class="w-full h-full object-cover " />
+        </div>
+      </div>
+      <div class="text-green-500 font-bold p-2">
+        R$ 250,00
+      </div>
+
+      <!-- Botão inferior -->
+      <div class="w-full flex justify-center md:mb-2 mb-4">
+        <button class="md:w-50 md:h-12 w-35 h-10  botao md:rounded-full rounded-2xl shadow-md hover:scale-105 active:scale-95 transition-transform">
+          Presentear
+        </button>
+      </div>
+    </div>
+
+    <!-- Novo card-->
+    <div class="relative bg-white w-40 h-[310px] md:w-60 md:h-[360px] rounded-2xl shadow-lg flex flex-col items-center justify-between md:p-6 overflow-hidden mb-8 zoom ">
+
+      <!-- Cabeçalho do Card -->
+      <div class="w-full flex justify-center items-center">
+        <h1 class=" md:text-lg fonte p-1">Sanduicheira</h1>
+      </div>
+
+      <!-- Imagem central -->
+      <div class="flex-1 flex items-center justify-center">
+        <div class="md:w-48 w-34 h-44 md:h-48 bg-gray-200 rounded-xl overflow-hidden shadow-inner zoom">
+          <img src="imagens/sanduicheira.png" 
+               alt="Imagem do produto" 
+               class="w-full h-full object-cover " />
+        </div>
+      </div>
+      <div class="text-green-500 font-bold p-2">
+        R$ 120,00
+      </div>
+
+      <!-- Botão inferior -->
+      <div class="w-full flex justify-center md:mb-2 mb-4">
+        <button class="md:w-50 md:h-12 w-35 h-10 botao md:rounded-full rounded-2xl shadow-md hover:scale-105 active:scale-95 transition-transform">
+          Presentear
+        </button>
+      </div>
+    </div>
+  </main>
+
+  
+
+  <!-- Rodapé -->
+  <footer class="grid grid-cols-1 md:grid-cols-3 gap-6 w-full bg-white shadow-inner py-6 text-center">
+    
+    <div class="text-xs md:text-lg flex flex-col items-center justify-center space-y-1">
+      <a href="index.html">Voltar ao Início</a>
+      <a href="noivos.html">Os Noivos</a>
+      <a href="convite.html">Meu Convite</a>
+      <a href="https://www.instagram.com/ciadafesta_buffet/" target="_blank">Local da Cerimônia</a>
+    </div>
+
+    <div class="text-[10px] md:text-lg flex flex-col justify-center items-center space-y-1">
+      <p class="font-semibold">Nossa chave PIX</p>
+      <p>21 99330-8955 (Ismael)</p>
+      <p>87 99615-1031 (Daniela)</p>
+    </div>
+
+    <div class="text-[10px] md:text-lg flex flex-col justify-center items-center space-y-2">
+      <span class="font-semibold">Nossas redes sociais</span>
+      <div class="flex gap-4">
+        <a href="#" class="hover:scale-110 transition">
+          <img width="30" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="Instagram" />
+        </a>
+        <a href="#" class="hover:scale-110 transition">
+          <img width="30" src="https://img.icons8.com/ios/50/whatsapp--v1.png" alt="WhatsApp" />
+        </a>
+      </div>
+    </div>
+    
+  </footer>
+
 </body>
 
 </html>
