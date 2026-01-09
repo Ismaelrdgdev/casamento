@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" />
+  
+
+  <title>Daniela & Ismael</title>
+</head>
+
+<body class="flex flex-col items-center justify-between font-sans">
+
+  <!-- Cabeçalho -->
+  <header
+    class="w-full md:h-80 h-40 flex flex-col justify-center items-center bg-gradient-to-r from-pink-400 to-rose-500 text-center">
+    <h1 class="text-4xl md:text-9xl text-white font-bold">Daniela & Ismael</h1>
+  </header>
+
+  <!-- Navegação -->
+  <nav class="w-full flex justify-center items-center gap-5 text-xs md:text-lg h-10 bg-white shadow-sm mb-10">
+    <a href="index.html" class="hover:text-pink-500 transition">Presentes</a>
+    <a href="pix.html" class="hover:text-pink-500 transition ">Presente PIX</a>
+    <a href="convite.html" class="hover:text-pink-500 transition">Convite</a>
+    <a href="https://www.instagram.com/ciadafesta_buffet/" target="_blank" class="hover:text-pink-500 transition">Local
+      da Cerimônia</a>
+  </nav>
+
+  <section class="flex justify-center items-center">
+    <div class="flex items-center justify-center texto-convite">
+      <div class="convite-card md:w-100 m-3">
+        <p>Chave PIX - ISMAEL</p>
+        <img src="./imagens/qrcode.jpeg" alt="QR Code para pagamento via PIX" width="220px">
+        <!-- Input onde a chave PIX é exibida -->
+        <input type="text" id="pixKey" value="145.245.664-06"   readonly
+          class="rounded-md p-2 w-full text-center"/>
+        <!-- Botão que aciona a função de copiar -->
+        <button class="link-convite flex items-center justify-center botao-pix" 
+          id="copyButton" 
+          onclick="copiarPix()">Copiar chave
+          PIX</button>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
