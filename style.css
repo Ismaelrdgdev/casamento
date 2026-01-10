@@ -56,12 +56,9 @@ nav{
     color: black;
     cursor: pointer;
     font-family: Poppins;
-
 }
 
-nav > div > a:hover{
-    color: var(--terceira);
-}
+
 
 .title{
     font-family: Bebas Neue;
@@ -161,4 +158,36 @@ footer > div > a:hover{
     border: 1px solid grey;
 }
 
-  
+
+@media (max-width: 768px) {
+    .fundo{
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(105, 216, 105);
+}
+
+.botao-pix:hover{
+    background-color: rgb(130, 219, 130);
+    border-radius: .5rem;
+    width: 11rem;
+    height: 2rem;
+    font-family: Poppins;
+    color: black;
+}
+
+.botao:hover{
+    background-color: rgb(130, 219, 130);
+    border-radius: 1rem;
+    padding: 0.2rem;
+    margin: 0.5rem;
+    font-family: Poppins;
+    color: black;
+}
+
+.zoom:hover{
+    transform: scale(1) ;
+}
+
+}
+
