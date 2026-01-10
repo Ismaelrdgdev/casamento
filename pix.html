@@ -8,8 +8,6 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="shortcut icon" href="imagens/icon.png" type="image/x-icon" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" />
-  
-
   <title>Daniela & Ismael</title>
 </head>
 
@@ -30,11 +28,11 @@
       da Cerimônia</a>
   </nav>
 
-  <section class="flex justify-center items-center mb-10">
+  <section class="grid grid-cols-1 md:grid-cols-2 justify-center items-center mb-10">
     <div class="flex items-center justify-center texto-convite">
       <div class="convite-card md:w-100 m-3">
         <p>Chave PIX - ISMAEL</p>
-        <img src="./imagens/qrcode.jpeg" alt="QR Code para pagamento via PIX" width="220px">
+        <img src="./imagens/QRCODE NUBANK.jpeg" alt="QR Code para pagamento via PIX" width="220px">
         <!-- Input onde a chave PIX é exibida -->
         <input type="text" id="pixKey" value="145.245.664-06"   readonly
           class="rounded-md p-2 w-full text-center"/>
@@ -42,6 +40,21 @@
         <button class="link-convite flex items-center justify-center botao-pix" 
           id="copyButton" 
           onclick="copiarPix()">Copiar chave
+          PIX</button>
+      </div>
+    </div>
+
+    <div class="flex items-center justify-center texto-convite">
+      <div class="convite-card md:w-100 m-3">
+        <p>Chave PIX - DANIELA</p>
+        <img src="./imagens/QRCODE PICPAY.jpeg" alt="QR Code para pagamento via PIX" width="220px">
+        <!-- Input onde a chave PIX é exibida -->
+        <input type="text" id="pixKey2" value="144.736.854-11"   readonly
+          class="rounded-md p-2 w-full text-center"/>
+        <!-- Botão que aciona a função de copiar -->
+        <button class="link-convite flex items-center justify-center botao-pix" 
+          id="copyButton2" 
+          onclick="copiarPix2()">Copiar chave
           PIX</button>
       </div>
     </div>
