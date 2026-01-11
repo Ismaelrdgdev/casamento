@@ -120,7 +120,7 @@ footer > div > a:hover{
 }
 
 .convite-card{
-    background-color: var(--segunda);
+    background-color: rgb(130, 219, 130)  ;
     border-radius: 1rem;
     box-shadow: 0px 3px 10px rgb(109, 106, 106) ;
     padding: 1rem;
@@ -131,7 +131,8 @@ footer > div > a:hover{
 }
 
 .botao-pix{
-    background-color: rgb(130, 219, 130);
+    background-color:  var(--segunda);
+    border: 1px solid black;
     border-radius: .5rem;
     width: 11rem;
     height: 2rem;
@@ -147,7 +148,7 @@ footer > div > a:hover{
 }
 
 .botao-convite{
-    background-color: rgb(130, 219, 130);
+    background-color: rgb(130, 219, 130) ;
     border-radius: .5rem;
     width: 100%;
     margin-top: 1rem;
@@ -156,6 +157,13 @@ footer > div > a:hover{
     color: black;
     text-decoration: none;
     border: 1px solid grey;
+}
+
+.fundo-footer{
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(105, 216, 105);
 }
 
 
