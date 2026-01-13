@@ -26,6 +26,38 @@
     <a href="convite.html" class="hover:text-pink-500 transition fundo">Convite</a>
     <a href="https://www.instagram.com/ciadafesta_buffet/" target="_blank" class="hover:text-pink-500 transition fundo">Local da Cerimônia</a>
   </nav>
+
+  <section class="grid grid-cols-1 md:grid-cols-2 justify-center items-center mb-10">
+    <div class="flex items-center justify-center texto-convite">
+      <div class="convite-card md:w-100 m-3">
+        <p>Chave PIX - ISMAEL</p>
+        <img src="./imagens/QRCODE NUBANK.jpeg" alt="QR Code para pagamento via PIX" width="220px">
+        <!-- Input onde a chave PIX é exibida -->
+        <input type="text" id="pixKey" value="145.245.664-06"   readonly
+          class="rounded-md p-2 w-full text-center"/>
+        <!-- Botão que aciona a função de copiar -->
+        <button class="link-convite flex items-center justify-center botao-pix" 
+          id="copyButton" 
+          onclick="copiarPix()">Copiar chave
+          PIX</button>
+      </div>
+    </div>
+
+    <div class="flex items-center justify-center texto-convite">
+      <div class="convite-card md:w-100 m-3">
+        <p>Chave PIX - DANIELA</p>
+        <img src="./imagens/QRCODE PICPAY.jpeg" alt="QR Code para pagamento via PIX" width="220px">
+        <!-- Input onde a chave PIX é exibida -->
+        <input type="text" id="pixKey2" value="144.736.854-11"   readonly
+          class="rounded-md p-2 w-full text-center"/>
+        <!-- Botão que aciona a função de copiar -->
+        <button class="link-convite flex items-center justify-center botao-pix" 
+          id="copyButton2" 
+          onclick="copiarPix2()">Copiar chave
+          PIX</button>
+      </div>
+    </div>
+  </section>
   
   <!-- Card principal -->
   <main class=" grid grid-cols-2 md:flex  justify-center items-center md:flex-1 py-2 gap-4 gap-y-4">
