@@ -176,12 +176,12 @@ footer > div > a:hover{
 }
 
 .botao-pix:hover{
-    background-color: rgb(130, 219, 130);
+    background-color: black;
     border-radius: .5rem;
     width: 11rem;
     height: 2rem;
     font-family: Poppins;
-    color: black;
+    color: white;
 }
 
 .botao:hover{
